@@ -33,6 +33,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_GENERIC_PROPERTIES += \
     ro.cherish.maintainer=hungphan2001
 
+# Define Cherish Device Name
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cherish.device_name="Redmi Note 7"
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
     PRODUCT_NAME="lavender" \
