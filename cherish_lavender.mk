@@ -18,7 +18,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 CHERISH_BUILD_TYPE := OFFICIAL
-
+WITH_GMS := true
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
